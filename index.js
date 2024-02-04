@@ -1,3 +1,5 @@
+ const express = require('express')
+ const server = express.Router()
 const jsonServer = require('json-server')
 const index = jsonServer.create()
 const router = jsonServer.router("datas.json")
